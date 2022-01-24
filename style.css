@@ -1,0 +1,202 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: burlywood;
+    
+}
+.container{
+    max-width: 1000px;
+    background: rgb(157, 235, 235);
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: rgb(119, 119, 110) 10px 20px 10px ;
+}
+.menu-bar{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+.menu-bar ul li{
+    list-style: none;
+    background-color: rgb(247, 0, 255);
+    padding: 15px;
+    border-radius: 20px;
+    width: 440px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 18px;
+    color: tomato;
+    background-color: rgb(255, 255, 255);
+    opacity: 40%;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.a-1:hover{
+    background-color: rgb(89, 27, 189);
+    padding: 10px;
+    border-style: double;
+    transition: 0.5s;
+    
+}
+.a-1:focus{
+    background-color: red;
+    transition: 0.5s;
+}
+
+.edit{
+    width: fit-content;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(145, 142, 151);
+    border: solid yellow 2px;
+    transition: 0.5s;
+}
+.edit a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.edit:hover{
+    padding: 15px;
+    transition: 0.5s;
+}
+.edit:focus{
+    background-color: tomato;
+}
+.profile-img{
+    width: 100px;
+    border: rgb(255, 246, 246) solid 3px;
+    border-radius: 50px;
+    float: left;
+    margin: 60px;
+}
+.heder-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color:rgb(255, 95, 2);
+}
+.heder-contact{
+    float: right;
+    padding: 30px;
+}
+.heder-contact a{
+    text-decoration: none;
+    transition: 0.5s;
+}
+.heder-contact a:hover{
+    color: rgb(0, 4, 255);
+    cursor:all-scroll;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: rgb(185, 173, 173);
+    border-radius: 10px;
+    text-decoration: underline;
+    padding: 8px;
+}
+.clear-div{
+    clear: both;
+}
+.hr-1{
+    background-color: black;
+    border: solid black 3px;
+    width:96%;
+    margin: 20px;
+    border-bottom: none;
+}
+.info-main{
+    float: left;
+    padding: 20px;
+}
+.dtails-info{
+    float: right;
+    padding: 20px;
+    padding-right: 295px;
+}
+.hr-2{
+    
+    border: solid rgb(126, 120, 120) 3px;
+    width:96%;
+    margin: 10px;
+    border-bottom: none;
+    
+}
+.work-exp{
+    float: left;
+    padding: 20px;
+}
+.work-head{
+    float: right;
+    padding: 20px;
+    padding-left: 250px;  
+}
+.education{
+    float: left;
+    padding: 20px;
+} 
+.ed-dtails{
+    float: right;
+    padding: 20px;
+    
+}
+.ed-dtails-2{
+    float: right;
+    padding: 20px;
+    padding-right: 50px; 
+}
+.hn-dtails{
+    float: left;
+    padding: 20px;
+}
+.ull-1{
+    float: right;
+    padding: 20px;
+    padding-right: 370px; 
+}
+.ref-1{
+    float: left;
+    padding: 20px;
+}
+.ref-dtls-1{
+    float: left;
+    padding: 20px;
+    padding-left: 120px; 
+}
+.ref-dtls-2{
+    float: right;
+    padding: 20px;
+padding-right: 150px;
+}
+.Bottom-container{
+    background-color: black;
+    margin: 30px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 20px 20px 0px 0px ;
+}
+.Bottom-container a{
+    margin: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    color: brown;
+    text-decoration: none;
+    
+}
+.Bottom-container a:hover{
+    color: chartreuse;
+    font-size: 20px;
+}
+.Bottom-container:hover{
+    background-color: honeydew;
+    color: rgb(255, 2, 129);
+}
+
+
